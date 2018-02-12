@@ -1,21 +1,22 @@
 * {
-    text-align: center;
+    box-sizing: border-box;
+    text-align: left;
     background: #777;
     color: #ebebeb;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
+    margin: auto;
 }
-aside {
-    vertical-align: middle;
-    width: 460px;
-}
+
 header {
-
+    text-align: center;
 }
 
-div {
-    display: flex;
-    flex-direction: row;
+.clear {
+    text-align: center;
+}
+nav {
+    text-align: center;
 }
 
 body {
@@ -23,5 +24,45 @@ body {
 }
 
 section {
+    display: flex;
+    flex-direction: row;
     width: 495px;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+aside {
+    vertical-align: middle;
+    width: 465px;
+}
+
+h1 {
+    margin: 20;
+}
+
+h2 {
+    margin: 20;
+}
+
+h3 {
+    margin: 20;
+}
+
+p {
+
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }

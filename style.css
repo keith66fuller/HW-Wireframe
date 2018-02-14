@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     text-align: center;
-    background-color: #777; 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     
@@ -10,138 +9,75 @@
 .clear {
 }
 
+/* Coloring */
+    /* Negative */
+    * {
+        background-color: #777;
+        color: #ebebeb; 
+    }
+
+    /* Positive */
+    header,nav,section,h1,p,aside,footer {
+        background-color: #ebebeb;
+        color: #777;
+    }
 
 
+    
 body {
     width: 960px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-
+    margin: auto;
 }
 
-header {
-    padding-top: 40px;
-    padding-bottom: 40px;
-
-    text-align: left;
-    padding-left: 40%;
-    
-    margin: 10px  auto;
-
+header,nav,footer {
     width: 100%;
-    border: 10px;
-
-    border-color: red;
-    background-color: #ebebeb;
-    color: #777;
-
-    
-
-}
-
-nav {
-    padding-top: 40px;
-    padding-bottom: 40px;
-
-    text-align: left;
-    padding-left: 40%;
-
     margin-top: 10px;
-    margin-bottom: 20px;
-    width: 100%;
-    border: 10px;
-
-    border-color: red;
-    background-color: #ebebeb;
-    color: #777; 
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40%;
+    text-align: left;
 }
 
 div {
-    width: 100%;
     display: flex;
     flex-direction: row;
+
+    width: 100%;
     height: 290px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-footer {
-    width: 960px;
+section,aside {
     padding-top: 40px;
     padding-bottom: 40px;
-
-    text-align: left;
-    padding-left: 40%;
-
-    
-
-    margin-top: 20px;
-
-
-    border-color: red;
-    background-color: #ebebeb;
-    color: #777; 
 }
-
 section {
     width: 495px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-
-
-    border-color: red;
-    background-color: #ebebeb;
-    color: #777; 
 }
 article {
-
     padding-top: 20px;
     padding-bottom: 1px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 20px;
-
-    background-color: #777;
-    color: #ebebeb; 
 }
 
 aside {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    
     width: 465px;
     margin-left: 20px;
-    border-color: red;
-    background-color: #ebebeb;
-    color: #777; 
-
 }
 
+h1,p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 h1 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-    margin-left: 20px;
-    margin-right: 20px;
-
-    border-color: red;
-    background-color: #ebebeb;
-    color: #777;
-
     font-size: 110%;
-}
-
-p {
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-    margin-left: 20px;
-    margin-right: 20px;
-
-    border-color: red;
-    background-color: #ebebeb;
-    color: #777;
 }
 
 
